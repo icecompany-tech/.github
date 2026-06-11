@@ -1,30 +1,31 @@
 # Icecompany
 
-Independent studio building network infrastructure and anti-tamper tools.
+Independent studio building an ecosystem of infrastructure tools for the modern internet. Founded 2026.
 
-[icecompany.tech](https://icecompany.tech) · [@iceslab](https://t.me/iceslab) · hello@icecompany.tech
+*Quiet tools for loud problems.*
+
+[icecompany.tech](https://icecompany.tech/en) · [@iceslab](https://t.me/iceslab) · [@icecompany_tech](https://x.com/icecompany_tech) · hello@icecompany.tech
 
 ---
 
 ## Products
 
-**[Iceslab](https://icecompany.tech/iceslab)** *(v1.0)* B2B operator panel for VPN deployments.
+**[Iceslab](https://icecompany.tech/en/iceslab)** *(Public Alpha, v0.1.2, AGPL-3.0)* open-source operator panel for self-hosted VPN deployments. Web panel, ships via Docker Compose.
 
-**[Iceshard](https://icecompany.tech/iceshard)** *(Closed Alpha)* native client paired with Iceslab.
+**[Iceshard](https://icecompany.tech/en/iceshard)** *(Planning)* native client for Iceslab-powered services. iOS first, TestFlight target Q4 2026, Android follows.
 
-**[Icepath](https://icecompany.tech/icepath)** *(Public Beta)* consumer VPN as a Telegram Mini App, free. Runs on top of Iceslab + Iceshard.
+**[Icepath](https://icecompany.tech/en/icepath)** *(Public Beta)* consumer VPN built on Iceslab + Iceshard, sold through a Telegram Mini App. Free today, paid plans Q3 2026.
 
-**[Icecore](https://icecompany.tech/icecore)** *(R&D)* user-space anti-cheat for game studios.
+**[Icecore](https://icecompany.tech/en/icecore)** *(R&D)* multi-protocol proxy runtime engine. An alternative to Xray and sing-box.
 
-Iceslab and Iceshard form a closed pair, they speak only to each other. Icecore is unrelated to the VPN stack.
+**[Iceproxy](https://icecompany.tech/en/iceproxy)** *(Planning)* reverse-proxy layer. An alternative to Nginx, Caddy, and Traefik.
+
+Iceslab and Iceshard are a closed pair, they speak only to each other. Icepath runs on top of them. Icecore and Iceproxy are independent infrastructure pieces.
 
 ---
 
 ## Contact
 
 - General: hello@icecompany.tech
-- Security: security@icecompany.tech ([policy](https://icecompany.tech/security))
-- Operators (Iceslab): operators@icecompany.tech
-- Game studios (Icecore): studios@icecompany.tech
-- Press: press@icecompany.tech
-- Legal / privacy: legal@icecompany.tech, privacy@icecompany.tech
+- Operators and resellers (Iceslab): operators@icecompany.tech
+- Security: security@icecompany.tech
