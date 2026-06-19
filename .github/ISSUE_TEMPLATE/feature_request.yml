@@ -1,0 +1,45 @@
+name: Feature request
+description: Suggest a new capability or improvement.
+title: "[feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Feature requests are welcome. Concrete use cases get attention. Vague wishes usually get closed.
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options:
+        - Iceslab
+        - Iceshard
+        - Icepath
+        - Icecore
+        - Iceproxy
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve
+      description: Describe the actual problem you are running into.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What you would like to see. UI, API, config, behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Workarounds you tried, or other tools that handle this differently.

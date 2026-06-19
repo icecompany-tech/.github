@@ -1,0 +1,59 @@
+name: Bug report
+description: Report a defect in an Icecompany product.
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. If you found a security issue, do not file it here. Email security@icecompany.tech instead.
+
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options:
+        - Iceslab
+        - Iceshard
+        - Icepath
+        - Icecore
+        - Iceproxy
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: For example, v0.1.7 or the short commit hash.
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, what you got instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Minimal steps. The smaller the repro, the faster the fix.
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, browser, Docker version, deployment topology. Anything that might matter.
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Paste relevant logs or attach screenshots. Redact secrets.
