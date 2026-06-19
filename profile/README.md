@@ -10,9 +10,9 @@ Independent studio building an ecosystem of infrastructure tools for the modern 
 
 ## Products
 
-**[Iceslab](https://icecompany.tech/en/iceslab)** *(Public Alpha, v0.1.2, AGPL-3.0)* open-source operator panel for self-hosted VPN deployments. Web panel, ships via Docker Compose.
+**[Iceslab](https://icecompany.tech/en/iceslab)** *(Public Alpha, AGPL-3.0)* open-source operator panel for self-hosted VPN deployments. Web panel, ships via Docker Compose.
 
-**[Iceshard](https://icecompany.tech/en/iceshard)** *(Planning)* native client for Iceslab-powered services. iOS first, TestFlight target Q4 2026, Android follows.
+**[Iceshard](https://icecompany.tech/en/iceshard)** *(Planning)* native client for Iceslab-powered services. Hand-built in C++/Qt. Windows first, then Android, Linux, iOS, macOS.
 
 **[Icepath](https://icecompany.tech/en/icepath)** *(Public Beta)* consumer VPN built on Iceslab + Iceshard, sold through a Telegram Mini App. Free today, paid plans Q3 2026.
 
